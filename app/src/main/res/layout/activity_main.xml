@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/zhulong"
+        />
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:background="@drawable/zhulong2"
+        android:layout_height="100dp"
+        />
+    <TextView
+        android:id="@+id/texts"
+        android:text="跳过"
+        android:textSize="20sp"
+        android:background="@drawable/yuan"
+        android:clickable="true"
+        android:textColor="@color/white"
+        android:layout_alignParentRight="true"
+        android:layout_width="80dp"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,2 @@
+include ':app', ':frams'
+rootProject.name='ZhuLongSociety_Project'
